@@ -1,6 +1,6 @@
 # learn-webgl
 
-why? WebGL is already a really niche topic inside an already niche field, so why bother learning it? same reason I learn everything else, HUNGER FOR KNOWlEDGE.
+why? webgl is already a really niche topic inside an already niche field, so why bother learning it? same reason I learn everything else, HUNGER FOR KNOWlEDGE.
 
 ## try yourself
 
@@ -26,7 +26,7 @@ why? WebGL is already a really niche topic inside an already niche field, so why
 
 <details markdown='1'>
     <summary> <a href='https://learnwebgl.brown37.net/the_big_picture/3d_rendering.html'> 1.2 3d computer graphics - what and how<a></summary>
-    computer graphics have applications beyond video games and movies. _raster graphics_ describes pictures using small dots of colors, pixels (Picture elements). if the dots are small enough and close enough, a person does not see the dots, they see a "picture". _vector graphics_ describes 3d objects using mathematical equations. a picture is creted from the 3 dimentional object via a process called "rendering". results of rendering is a 2 dimentional raster image. 
+    computer graphics have applications beyond video games and movies. _raster graphics_ describes pictures using small dots of colors, pixels (Picture elements). if the dots are small enough and close enough, a person does not see the dots, they see a "picture". _vector graphics_ describes 3d objects using mathematical equations. a picture is creted from the 3 dimentional object via a process called "rendering". results of rendering is a 2 dimentional raster image.
 </details>
 
 <details markdown='1'>
@@ -47,4 +47,25 @@ why? WebGL is already a really niche topic inside an already niche field, so why
 <details markdown='1'>
     <summary> <a href='https://learnwebgl.brown37.net/the_big_picture/coding_standards.html'> 1.6 software coding standards<a></summary>
     to follow a set of good coding standards makes you a good programmer. please follow the link above to read more about the coding standards.
+</details>
+
+### 2. tools and languages
+
+<details markdown='1'>
+    <summary> <a href='https://learnwebgl.brown37.net/browser_environment/install_tools.html'> 2.1 canvas and gl content<a></summary>
+    we should get the canvas element using document.getElementById(id) function. to render realtime graphic on the page, we need a html canvas element.
+</details>
+
+### 3. modelling
+
+
+<details markdown='1'>
+    <summary> <a href='https://learnwebgl.brown37.net/modelers/modelers.html'> 3.1 3d modelling<a></summary>
+    3d model is basically a polygonal mesh. polygons with more than 3 edges are converted into triangles during rendering. a model is manipulated as a single unit. if the object moves independently, its parts must me modelled seprately.
+</details>
+
+
+<details markdown='1'>
+    <summary> <a href='https://learnwebgl.brown37.net/modelers/obj_data_format.html'> 3.2 obj model format<a></summary>
+    obj files are plain text so we can parse them using javascript.
 </details>
