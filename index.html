@@ -10,9 +10,6 @@
             font-family: 'Courier New', Courier, monospace;
             margin: 0;
             padding: 20px;
-        }
-
-        p {
             font-size: 2cqh;
         }
 
@@ -20,48 +17,79 @@
             font-size: 4cqh;
             margin-bottom: 10px;
         }
-        
-        .list {
-            font-size: 2.3cqh;
+
+        .list-table {
+            width: 100%;
+            border-collapse: collapse;
             margin-top: 10px;
-            line-height: 2.8;
         }
-        
-        .list-item {
+
+        .list-table th,
+        .list-table td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 10px;
+        }
+
+        .list-table th {
+            font-size: 2cqh;
+            background-color: #f4f4f4;
+        }
+
+        .list-table td {
+            font-size: 2cqh;
+        }
+
+        .list-table a {
             text-decoration: none;
-            display: flex;
-            justify-content: space-between;
         }
     </style>
 </head>
 
 <body>
     <div class="header">learning webgl</div>
-    <p> <strong>why?</strong> webgl is already a really niche topic inside an already niche field, so why bother learning it? same reason I learn
-    everything else, because i found it cool. my ultimate goal from learning webgl is to build a <kbd>blender clone</kbd> from scratch.</p>
+    <p> <strong>why?</strong> webgl is already a really niche topic inside an already niche field, so why bother
+        learning it? same reason I learn
+        everything else, because i found it cool. my ultimate goal from learning webgl is to build a <kbd>blender
+            clone</kbd> from scratch.</p>
 
     Rules for self:
     <ul>
         <li>dont burn through steps</li>
-        <li>must achieve a level of mastery (e.g., 90% on a knowledge test) in prerequisite knowledge before moving forward<a target="_blank" href="https://en.wikipedia.org/wiki/Mastery_learning#">(mastery learning)</a></li>
+        <li>must achieve a level of mastery (e.g., 90% on a knowledge test) in prerequisite knowledge before moving
+            forward<a target="_blank" href="https://en.wikipedia.org/wiki/Mastery_learning#">(mastery learning)</a></li>
     </ul>
 
-    <p>here is my collection of assignments i completed while learning webgl (all of these are from multiple sources)</p>
+    <p>here is my collection of assignments i completed while learning webgl (all of these are from multiple sources)
+    </p>
     <hr>
-    <div class="list">
-        <a href="./triangle.html" class="list-item">
-            <span>1. triangle</span>
-            <span>sun, 10 nov 2024</span>
-        </a>
-        <a href="./shaders.html" class="list-item">
-            <span>2. Shaders</span>
-            <span>sun, 10 nov 2024</span>
-        </a>
-        <a href="./rotating-cube.html" class="list-item">
-            <span>3. Rotating cube</span>
-            <span>sun, 10 nov 2024</span>
-        </a>
-    </div>
+    <a href="https://github.com/adimail/learn-webgl">source code</a>
+    <table class="list-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>project name</th>
+                <th>date completed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><a href="./triangle.html">triangle</a></td>
+                <td>10 nov 2024</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="./shaders.html">shaders</a></td>
+                <td>10 nov 2024</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="./rotating-cube.html">rotating Cube</a></td>
+                <td>10 nov 2024</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
